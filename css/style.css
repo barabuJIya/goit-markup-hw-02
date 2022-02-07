@@ -1,0 +1,203 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --white-color: #fff;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+input {
+  outline: none;
+}
+ul li {
+  list-style: none;
+}
+body {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: var(--main-font);
+}
+/* =====Header===== */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.black-logo {
+  color: var(--main-color);
+}
+.header-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.contacts-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.contacts-link:hover,
+.header-link:hover,
+.contacts-link:focus,
+.header-link:focus {
+  color: #2196f3;
+}
+/* =====Hero===== */
+
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.hero-button {
+  background: #2196f3;
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+}
+/* =====Peculiarities Section===== */
+.hide {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  margin-top: -1px;
+}
+.peculiarities-item-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.peculiarities-item-text {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* =====Occupation Section===== */
+.occupation-title,
+.team-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+/* =====Our Team Section===== */
+
+.employee {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.position {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+/* =====Footer===== */
+.footer {
+  background: #2f303a;
+}
+.white-logo {
+  color: var(--white-color);
+}
+.actual-address {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+/* =====Portfolio===== */
+.projects-categories-btn {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.projects-categories-btn:hover,
+.projects-categories-btn:focus {
+  background: #2196f3;
+  color: var(--white-color);
+}
+
+.projects-name {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.projects-description {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
